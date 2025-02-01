@@ -2,13 +2,10 @@
 
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin } from "lucide-react";
-import { useTheme } from "next-themes";
 import { Magnetic } from "../ui/magnetic";
 import { TextEffect } from "../ui/text-effect";
 
 export default function HeroSection() {
-  const { theme } = useTheme();
-
   const handleClickButton = (platform: "GITHUB" | "LIKEDIN") => {
     if (platform === "GITHUB") {
       window.location.href = "https://github.com/peterVoid";
