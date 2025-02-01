@@ -10,7 +10,8 @@ export default function HeroSection() {
     if (platform === "GITHUB") {
       window.location.href = "https://github.com/peterVoid";
     } else {
-      window.location.href = "https://github.com/peterVoid";
+      window.location.href =
+        "https://www.linkedin.com/in/haikal-alhakim-b02626287/";
     }
   };
 
@@ -40,7 +41,7 @@ export default function HeroSection() {
             Student
           </p>
           <p className="-mt-3 text-muted-foreground">
-            And a Patron of Open Source Sofrware.
+            Exploring the Boundaries of Software Engineering.
           </p>
         </div>
         <div className="flex items-center gap-3">
